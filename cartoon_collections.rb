@@ -10,8 +10,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |element, index|
-    index = element.count
-    puts index + element
+    puts element + index
 end
 end
 
